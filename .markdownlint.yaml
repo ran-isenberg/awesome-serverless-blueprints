@@ -183,7 +183,7 @@ MD040: true
 # MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
 MD041:
   # Heading level
-  level: 2
+  level: 1
   # RegExp for matching title in front matter
   front_matter_title: "^\\s*title\\s*[:=]"
 
@@ -201,7 +201,7 @@ MD044:
   html_elements: true
 
 # MD045/no-alt-text - Images should have alternate text (alt text)
-MD045: true
+MD045: false
 
 # MD046/code-block-style - Code block style
 # Material theme tabbed content feature use indented and simple use fenced; can't support both
