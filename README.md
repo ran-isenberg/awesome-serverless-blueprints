@@ -1,8 +1,11 @@
+# Let's update the intro and add the two new repos to the table.
+
+html_with_new_repos_and_intro = """
 # Awesome AWS Serverless Blueprints
 
 Welcome to the **Awesome AWS Serverless Blueprints** repository! 🚀
 
-This repository curates a collection of ready-to-use serverless blueprints for building, deploying, and managing serverless applications using various AWS services, IaC tools, CI/CD pipelines, and programming languages.
+This repository curates a collection of ready-to-use serverless blueprints (GitHub template repositories) for building, deploying, and managing **serverless services** using various AWS tools, IaC frameworks, CI/CD pipelines, and programming languages.
 
 Whether you're an AWS expert or just getting started, these blueprints will help you accelerate development using best practices.
 
@@ -10,14 +13,14 @@ Whether you're an AWS expert or just getting started, these blueprints will help
 
 ## 📋 **Blueprint List**
 
-Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, programming language, description, last commit status, code coverage, and special features to help you select the right one for your project.
+Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, programming language, description, last commit status, code coverage, special features, and extra features to help you select the right one for your project.
 
 <table>
   <tr>
-    <th style="width:20%">Blueprint</th>
+    <th style="width:15%">Blueprint</th>
     <th style="width:15%">Maintainer</th>
-    <th style="width:20%">⭐</th>
-    <th style="width:25%">Description</th>
+    <th style="width:10%">⭐</th>
+    <th style="width:20%">Description</th>
     <th style="width:10%">IaC Tool</th>
     <th style="width:10%">CI/CD Tool</th>
     <th style="width:10%">Programming Language</th>
@@ -26,7 +29,25 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td><a href="https://github.com/ran-isenberg/aws-lambda-handler-cookbook">AWS Lambda Handler Cookbook</a></td>
     <td><a href="https://aws.amazon.com/developer/community/heroes/ran-isenberg/">Ran Isenberg</a></td>
     <td><img src="https://img.shields.io/github/stars/ran-isenberg/aws-lambda-handler-cookbook?style=social" height="25"/></td>
-    <td>A comprehensive blueprint for building optimized AWS Lambda functions using best practices for serverless architecture.</td>
+    <td>A comprehensive נblueprint for building optimized backend services usingb AWS Lambda functions, API GW, DynamoDB, WAF and CloudWatch using best practices for serverless architecture.</td>
+    <td>AWS CDK</td>
+    <td>GitHub Actions</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ran-isenberg/governance-sample-aws-service-catalog">Governance Sample AWS Service Catalog</a></td>
+    <td><a href="https://github.com/ran-isenberg">Ran Isenberg</a></td>
+    <td><img src="https://img.shields.io/github/stars/ran-isenberg/governance-sample-aws-service-catalog?style=social" height="25"/></td>
+    <td>Cross-account governance, resource lifecycle management for platform teams. A governance sample built with AWS Service Catalog to help streamline approvals and resource management.</td>
+    <td>AWS CDK</td>
+    <td>GitHub Actions</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ran-isenberg/auto-cross-account-access-service">Auto Cross-Account Access Service</a></td>
+    <td><a href="https://github.com/ran-isenberg">Ran Isenberg</a></td>
+    <td><img src="https://img.shields.io/github/stars/ran-isenberg/auto-cross-account-access-service?style=social" height="25"/></td>
+    <td>A serverless service that automates cross-account secure access management between AWS accounts using IAM, AWS Service Catalog and Serverless services.</td>
     <td>AWS CDK</td>
     <td>GitHub Actions</td>
     <td>Python</td>
@@ -60,3 +81,8 @@ If these blueprints are helpful, please consider giving the this repo and the bl
 ## 📜 **License**
 
 This project is licensed under the MIT License.
+"""
+
+# Save the updated README.md file with the new repositories and intro
+with open("/mnt/data/AWSome_Serverless_Blueprints_README.md", "w") as file:
+    file.write(html_with_new_repos_and_intro)
