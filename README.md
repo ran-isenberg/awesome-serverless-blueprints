@@ -1,6 +1,3 @@
-# Let's update the intro and add the two new repos to the table.
-
-html_with_new_repos_and_intro = """
 # Awesome AWS Serverless Blueprints
 
 Welcome to the **Awesome AWS Serverless Blueprints** repository! 🚀
@@ -81,8 +78,3 @@ If these blueprints are helpful, please consider giving the this repo and the bl
 ## 📜 **License**
 
 This project is licensed under the MIT License.
-"""
-
-# Save the updated README.md file with the new repositories and intro
-with open("/mnt/data/AWSome_Serverless_Blueprints_README.md", "w") as file:
-    file.write(html_with_new_repos_and_intro)
