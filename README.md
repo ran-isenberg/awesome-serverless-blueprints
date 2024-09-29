@@ -26,7 +26,7 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td><a href="https://github.com/ran-isenberg/aws-lambda-handler-cookbook">AWS Lambda Handler Cookbook</a></td>
     <td><a href="https://ranthebuilder.com/">Ran Isenberg</a></td>
     <td><img src="https://img.shields.io/github/stars/ran-isenberg/aws-lambda-handler-cookbook?style=social" height="25"/></td>
-    <td>A comprehensive נblueprint for building optimized backend services usingb AWS Lambda functions, API GW, DynamoDB, WAF and CloudWatch using best practices for serverless architecture.</td>
+    <td>A comprehensive blueprint for building optimized backend services usingb AWS Lambda functions, API GW, DynamoDB, WAF and CloudWatch using best practices for serverless architecture.</td>
     <td>AWS CDK</td>
     <td>GitHub Actions</td>
     <td>Python</td>
