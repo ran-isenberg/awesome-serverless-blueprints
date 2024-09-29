@@ -1,0 +1,64 @@
+
+name: Add New Serverless Blueprint
+description: Submit a new serverless blueprint to be included in the Awesome AWS Serverless Blueprints repository 🚀. Make sure it follows the guidelines and best practices outlined.
+title: "[New Blueprint]: <BLUEPRINT NAME>"
+labels: ["new-blueprint", "community-content"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for contributing to the Awesome AWS Serverless Blueprints repository! Please fill out the details below so we can include your blueprint.
+  - type: input
+    id: blueprint-name
+    attributes:
+      label: Blueprint Name
+      description: What is the name of your serverless blueprint?
+    validations:
+      required: true
+  - type: input
+    id: maintainer
+    attributes:
+      label: Maintainer
+      description: Provide the GitHub username of the maintainer of this blueprint.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Repository Link
+      description: Please provide a link to the GitHub repository for this blueprint.
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Provide a short description of the blueprint and its key features.
+    validations:
+      required: true
+  - type: input
+    id: iac-tool
+    attributes:
+      label: Infrastructure as Code (IaC) Tool
+      description: What IaC tool does the blueprint use? (e.g., AWS CDK, Terraform)
+    validations:
+      required: true
+  - type: input
+    id: cicd-tool
+    attributes:
+      label: CI/CD Tool
+      description: What CI/CD tool does the blueprint use? (e.g., GitHub Actions, Jenkins)
+    validations:
+      required: true
+  - type: input
+    id: programming-language
+    attributes:
+      label: Programming Language
+      description: What programming language does the blueprint use? (e.g., Python, TypeScript)
+    validations:
+      required: true
+    id: acknowledgment
+    attributes:
+      label: Acknowledgment
+      options:
+        - label: I acknowledge that my submission follows the best practices of serverless architecture and meets the guidelines outlined in this repository.
+          required: true
