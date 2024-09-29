@@ -19,7 +19,7 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
   <tr>
     <th style="width:15%">Blueprint</th>
     <th style="width:15%">Maintainer</th>
-    <th style="width:10%">⭐</th>
+    <th style="width:10%">GitHub ⭐</th>
     <th style="width:20%">Description</th>
     <th style="width:10%">IaC Tool</th>
     <th style="width:10%">CI/CD Tool</th>
