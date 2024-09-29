@@ -1,8 +1,8 @@
-
 name: Add New Serverless Blueprint
 description: Submit a new serverless blueprint to be included in the Awesome AWS Serverless Blueprints repository 🚀. Make sure it follows the guidelines and best practices outlined.
 title: "[New Blueprint]: <BLUEPRINT NAME>"
 labels: ["new-blueprint", "community-content"]
+assignees: ran-isenberg
 body:
   - type: markdown
     attributes:
@@ -56,9 +56,4 @@ body:
       description: What programming language does the blueprint use? (e.g., Python, TypeScript)
     validations:
       required: true
-    id: acknowledgment
-    attributes:
-      label: Acknowledgment
-      options:
-        - label: I acknowledge that my submission follows the best practices of serverless architecture and meets the guidelines outlined in this repository.
-          required: true
+
