@@ -35,6 +35,6 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - name: Install dependencies
-        run: make dev
+        run: npm install
       - name: Formatting and Linting
         run: make lint
