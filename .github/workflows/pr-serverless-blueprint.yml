@@ -1,0 +1,40 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+name: PR - Serverless Blueprint CI/CD
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: "20"
+
+on:
+  workflow_dispatch:
+
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality_standards:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "🐧 This job is now running on a ${{ env.OS_NAME }} ${{env.OS_ARCH}} server hosted by GitHub!" >> $GITHUB_STEP_SUMMARY
+          echo "🔎 The name of your branch is ${{ env.BRANCH_NAME }} and your repository is ${{ env.REPO_NAME }}." >> $GITHUB_STEP_SUMMARY
+        env:
+          EVENT_NAME: ${{ github.event_name}}
+          OS_NAME: ${{ runner.os }}
+          OS_ARCH: ${{runner.arch }}
+          BRANCH_NAME: ${{ github.ref }}
+          REPO_NAME: ${{ github.repository }}
+      - name: Check out repository code
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+      - name: Set up Node
+        uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # v4.0.3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install dependencies
+        run: npm install
+      - name: Formatting and Linting
+        run: make lint
