@@ -49,6 +49,15 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td>GitHub Actions</td>
     <td>Python</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/open-constructs/cdk-serverless">CDK Serverless</a></td>
+    <td><a href="https://github.com/hoegertn/">Thorsten Hoeger</a></td>
+    <td><img src="https://img.shields.io/github/stars/open-constructs/cdk-serverless?style=social" height="25"/></td>
+    <td>CDK Serverless is a powerful toolkit designed to simplify serverless application development using the AWS Cloud Development Kit (CDK).</td>
+    <td>AWS CDK</td>
+    <td>Up to the user. Recommend projen-pipelines</td>
+    <td>TypeScript</td>
+  </tr>
 </table>
 
 ---
