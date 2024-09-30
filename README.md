@@ -58,6 +58,15 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td>GitHub Actions</td>
     <td>Python</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/cargo-lambda/cargo-lambda">Rust Lambda function</a></td>
+    <td><a href="https://www.cargo-lambda.info/">cargo-lambda</a></td>
+    <td><img src="https://img.shields.io/github/stars/cargo-lambda/cargo-lambda?style=social" height="25"/></td>
+    <td>A Cargo extension that allows to easily scaffold new Rust Lambda projects</td>
+    <td>None (but SAM, CDK and Terraform can be added easily)</td>
+    <td>None, but the repo has examples with GitHub Actions</td>
+    <td>Rust</td>
+  </tr>
 </table>
 
 ---
