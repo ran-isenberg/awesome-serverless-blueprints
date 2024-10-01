@@ -23,6 +23,15 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <th style="width:10%">Programming Language</th>
   </tr>
   <tr>
+    <td><a href="https://github.com/brianleroux/arc-example-hono-enhance-ssr">Architect: local dev hello world SSR with Web Components</a></td>
+    <td><a href="https://github.com/brianleroux">brianleroux</a></td>
+    <td><img src="https://img.shields.io/github/stars/brianleroux/arc-example-hono-enhance-ssr?style=social" height="25"/></td>
+    <td>Server-side render Web Components using HonoJS on top of API Gateway and Lambda</td>
+    <td>OpenJS Architect (generates AWS SAM)</td>
+    <td>GitHub Actions</td>
+    <td>JavaScript</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/ran-isenberg/auto-cross-account-access-service">Auto Cross-Account Access Service</a></td>
     <td><a href="https://ranthebuilder.com/">Ran Isenberg</a></td>
     <td><img src="https://img.shields.io/github/stars/ran-isenberg/auto-cross-account-access-service?style=social" height="25"/></td>
