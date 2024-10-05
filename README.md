@@ -76,6 +76,15 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td>None, but the repo has examples with GitHub Actions</td>
     <td>Rust</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/leegilmorecode/Serverless-AWS-CDK-Best-Practices-Patterns">Serverless AWS CDK Pipeline Best Practices & Patterns</a></td>
+    <td><a href="https://www.serverlessadvocate.com">@leegilmorecode</a></td>
+    <td><img src="https://img.shields.io/github/stars/leegilmorecode/Serverless-AWS-CDK-Best-Practices-Patterns?style=social" height="25"/></td>
+    <td>An opinionated AWS CDK solution with full pipeline in-line with the AWS Deployment Pipeline Reference Architecture (DPRA). It covers everything from best practices for setting up an AWS CDK application, progressive deployments with AWS CodeDeploy, to feature flags, performance testing, synthetics, e2e testing and more.</td>
+    <td>AWS CDK</td>
+    <td>AWS CDK Pipelines</td>
+    <td>Typescript</td>
+  </tr>
 </table>
 
 ---
