@@ -85,6 +85,24 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td>AWS CDK Pipelines</td>
     <td>Typescript</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/JeremieRodon/demo-rust-lambda-appsync">AppSync Resolver Benchmark Game</a></td>
+    <td><a href="https://linkedin.com/in/JeremieRodon">Jérémie RODON</a></td>
+    <td><img src="https://img.shields.io/github/stars/JeremieRodon/demo-rust-lambda-appsync?style=social" height="25"/></td>
+    <td>A production-ready example of AWS AppSync integration with Rust Lambda resolvers, demonstrated through a real-time game that compares performance with other resolver types (Python Lambda, JavaScript, VTL).</td>
+    <td>CloudFormation</td>
+    <td>AWS CodePipeline</td>
+    <td>Rust, Python, JavaScript</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/JeremieRodon/demo-rust-lambda">Demo Rust Lambda</a></td>
+    <td><a href="https://linkedin.com/in/JeremieRodon">Jérémie RODON</a></td>
+    <td><img src="https://img.shields.io/github/stars/JeremieRodon/demo-rust-lambda?style=social" height="25"/></td>
+    <td>A complete example of AWS API Gateway integration with Rust Lambda functions, comparing performance with Python implementations and demonstrating up to 50x faster execution in real-world scenarios.</td>
+    <td>CloudFormation</td>
+    <td>AWS CodePipeline</td>
+    <td>Rust, Python</td>
+  </tr>
 </table>
 
 ---
