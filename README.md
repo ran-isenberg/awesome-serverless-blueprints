@@ -33,7 +33,7 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
   </tr>
   <tr>
     <td><a href="https://github.com/ran-isenberg/auto-cross-account-access-service">Auto Cross-Account Access Service</a></td>
-    <td><a href="https://ranthebuilder.com/">Ran Isenberg</a></td>
+    <td><a href="https://ranthebuilder.cloud/">Ran Isenberg</a></td>
     <td><img src="https://img.shields.io/github/stars/ran-isenberg/auto-cross-account-access-service?style=social" height="25"/></td>
     <td>A serverless service that automates cross-account secure access management between AWS accounts using IAM, AWS Service Catalog and Serverless services.</td>
     <td>AWS CDK</td>
@@ -42,9 +42,18 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
   </tr>
   <tr>
     <td><a href="https://github.com/ran-isenberg/aws-lambda-handler-cookbook">AWS Lambda Handler Cookbook</a></td>
-    <td><a href="https://ranthebuilder.com/">Ran Isenberg</a></td>
+    <td><a href="https://ranthebuilder.cloud/">Ran Isenberg</a></td>
     <td><img src="https://img.shields.io/github/stars/ran-isenberg/aws-lambda-handler-cookbook?style=social" height="25"/></td>
     <td>A comprehensive blueprint for building optimized backend services usingb AWS Lambda functions, API GW, DynamoDB, WAF and CloudWatch using best practices for serverless architecture.</td>
+    <td>AWS CDK</td>
+    <td>GitHub Actions</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ran-isenberg/aws-lambda-mcp-cookbook">AWS Lambda MCP Cookbook</a></td>
+    <td><a href="https://ranthebuilder.cloud/">Ran Isenberg</a></td>
+    <td><img src="https://img.shields.io/github/stars/ran-isenberg/aws-lambda-mcp-cookbook?style=social" height="25"/></td>
+    <td>A working, deployable serverless MCP server blueprint built on AWS Lambda with AWS CDK, offering both a native Lambda implementation and a Lambda Web Adapter + FastMCP variant, with a full CI/CD pipeline, tests, and observability.</td>
     <td>AWS CDK</td>
     <td>GitHub Actions</td>
     <td>Python</td>
@@ -60,7 +69,7 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
   </tr>
    <tr>
     <td><a href="https://github.com/ran-isenberg/governance-sample-aws-service-catalog">Governance Sample AWS Service Catalog</a></td>
-    <td><a href="https://ranthebuilder.com/">Ran Isenberg</a></td>
+    <td><a href="https://ranthebuilder.cloud/">Ran Isenberg</a></td>
     <td><img src="https://img.shields.io/github/stars/ran-isenberg/governance-sample-aws-service-catalog?style=social" height="25"/></td>
     <td>Cross-account governance, resource lifecycle management for platform teams. A governance sample built with AWS Service Catalog to help streamline approvals and resource management.</td>
     <td>AWS CDK</td>
