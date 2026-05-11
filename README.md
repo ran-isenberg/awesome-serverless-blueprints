@@ -50,6 +50,15 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td>Python</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/ran-isenberg/aws-lambda-mcp-cookbook">AWS Lambda MCP Cookbook</a></td>
+    <td><a href="https://ranthebuilder.com/">Ran Isenberg</a></td>
+    <td><img src="https://img.shields.io/github/stars/ran-isenberg/aws-lambda-mcp-cookbook?style=social" height="25"/></td>
+    <td>A working, deployable serverless MCP server blueprint built on AWS Lambda with AWS CDK, offering both a native Lambda implementation and a Lambda Web Adapter + FastMCP variant, with a full CI/CD pipeline, tests, and observability.</td>
+    <td>AWS CDK</td>
+    <td>GitHub Actions</td>
+    <td>Python</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/open-constructs/cdk-serverless">CDK Serverless</a></td>
     <td><a href="https://github.com/hoegertn/">Thorsten Hoeger</a></td>
     <td><img src="https://img.shields.io/github/stars/open-constructs/cdk-serverless?style=social" height="25"/></td>
