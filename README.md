@@ -112,6 +112,15 @@ Each blueprint includes the infrastructure as code (IaC) tool, CI/CD pipeline, p
     <td>AWS CodePipeline</td>
     <td>Rust, Python</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/Yadab-Sd/smart-notification-routing-engine">Smart Notification Routing Engine</a></td>
+    <td><a href="https://github.com/Yadab-Sd">Yadab Sutradhar</a></td>
+    <td><img src="https://img.shields.io/github/stars/Yadab-Sd/smart-notification-routing-engine?style=social" height="25"/></td>
+    <td>AWS-native notification routing framework with Attention Escrow, send-time optimization, campaigns, audiences, templates, and email/SMS delivery.</td>
+    <td>AWS CDK</td>
+    <td>GitHub Actions</td>
+    <td>Java, TypeScript, Python</td>
+  </tr>
 </table>
 
 ---
